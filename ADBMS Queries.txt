@@ -1,0 +1,14 @@
+ADBMS Queries
+
+1.use studentsDb (uses student database)
+2.Insert-db.students.insertOne({name:"Alice",dept:"IT",subjects:["AI","ML"]roll no:10,gpa:8})
+3.Insert many-db.students.insertmany([{name:"Alice",dept:"IT",subjects:["AI","ML"]roll no:10,gpa:8},{name:"Alice",dept:"IT",subjects:["AI","ML"]roll no:10,gpa:8}])
+4.Delete-db.students.deleteOne({name:"Alice"})
+5.Replace-db.students.replaceOne({name:"Priyanka"},{name:"Priyanka",department:"IT",gpa:7})
+6.Update-db.students.updateOne({name:"Sush"},{$set:{department:"Computer science"}})
+7.Update Many-db.students.updateOne({department:"Computer Science"},{$set:{sclorship:true}})
+8.find and update-db.students.findOneAndUpdate({name:"Priyanka"},{$set:{gpa:9}},{returnDocument:"after"})
+9.find one-db.students.findOne({name:"Dhyey"})
+10.find grether than-db.students.find({gpa:{$gt:8}})
+11.find less than-db.students.find({gpa:{$lt:8}})
+12.

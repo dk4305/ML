@@ -1,0 +1,47 @@
+VIVA
+
+ML
+
+1.Association Rule:Ti is used to find relationships between items in large datasets.its mainly used in market basket analysis
+2.ANN-Artificial Neural Network,CNN-convolutional neural network
+3.Regression-It is supervised learning technique and used to predict outcome
+4.Data Processing-It is a process to clean raw data before inserting in ML algo
+5.why it is used-It is used to clear unwanted spaces and missing values which will make it perfect for inserting in ML algo
+6.Confusion matrix-It is used to evaluate classification matrix.it has 4 parts TP,TN,FP,FN
+7.Neural Network-It is a computer model that learns from data to predict future
+8.K-means clustering/clustering-it is a unsupervised learning technique in which unlabeled data is clustered as group
+9.Classification techniques-Means supervised learning technique where labelled data is used t train model which can detect category of future data.Eg-email spam detector
+10.Types of ML Models-1)linear-separates classes using straight line.rg-pass vs fail 2)Non-linear-Separates using curverd patterns 
+11.Finding k value for k means clustering-a)Elbow method,b)Silhouette Method
+12.Multilayer                           single layer
+complex perception                        Simple
+Many layers                               single
+Non linear problems                    linear problems
+Regression                                gates
+
+ADBMS
+
+1. Aggregation (in DBMS/MongoDB):Process of computing a result from multiple records (e.g., sum, average, count, group by).
+In MongoDB, the aggregation pipeline is used to transform and analyze documents.
+2. Indexing:A technique to speed up query processing by creating a data structure (like B-tree, hash) that allows quick search.
+Works like the index in a book for faster lookups.
+3. MapReduce (in MongoDB/Big Data):A programming model for processing large datasets in parallel.Map: Break data into key-value pairs.
+4. Star Schema (in Data Warehousing):A schema with one central fact table (stores quantitative data like sales) linked to multiple dimension tables
+5. Snowflake Schema:A normalized version of the star schema.Dimension tables are split into sub-dimensions (more structured but more complex).
+6.MongoDB is a NoSQL (non-relational) database that stores data in a flexible, JSON-like format called documents instead of tables like in SQL.
+7.Advantages of MongoDB
+a)Schema-less (Flexible Structure):No fixed table design required; documents can have different fields.
+b)Stores Data as Documents (JSON/BSON):Easy to understand, read, and map to application objects (especially for JavaScript apps).
+c)High Performance & Fast Access:Faster querying due to indexing and in-memory processing.
+d)Easy Scalability:Supports horizontal scaling through sharding for large data systems.
+8.A Primary Key is a field/column that uniquely identifies each record in a table.No duplicates allowed,Cannot be NULL
+9.A Foreign Key is a field in one table that links to the Primary Key of another table, creating a relationship between the two tables.
+10.A Column-Oriented Database is a type of database that stores data column-wise instead of row-wise.Data is stored by columns, which makes it faster to read and analyze specific columns.
+11.some open-source database systems other than MySQL and MongoDB:SQLite,CockroachDB,CouchDB
+12.To create a collection in MongoDB, you can use the db.createCollection()
+13.Comparative operators in MongoDB are used to compare values in queries, similar to comparison operators in mathematics.
+($gt and $lt)
+14.The four main types of NoSQL databases are:Key-Value Stores,Document-Oriented Databases,Column-Family Stores,Graph Databases
+15.MongoDB datatypes-String,integer,Date,object,boolean,array,objectID
+16.A Key/Value NoSQL Database stores data in the form of a key and its associated value, like a dictionary or map.
+While MongoDB is mainly a Document-Oriented NoSQL database, it can also act like a key/value store because each document has a unique _id (key) and the document itself acts as the value.
